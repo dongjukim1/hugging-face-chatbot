@@ -54,7 +54,7 @@ if prompt := st.chat_input("Enter your message..."):
             input_ids = input_ids.to(model.device)
 
             gen_ids = model.generate(
-                input_ids,
+                input_ids,                  
                 max_new_tokens=256,
                 do_sample=True,
                 temperature=0.7,
