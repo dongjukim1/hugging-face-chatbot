@@ -7,6 +7,41 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Jupyter / Colab notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (if created locally)
+.venv/
+env/
+venv/
+
+# Hugging Face cache (large models, tokens, etc.)
+huggingface_cache/
+~/.cache/huggingface/
+
+# pip / Python build cache
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.so
+
+# Log / temporary files
+*.log
+*.tmp
+
+# System files (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Environment/secret files
+.env
+*.sh
+
 # C extensions
 *.so
 
